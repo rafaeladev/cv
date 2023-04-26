@@ -52,6 +52,10 @@ body {
 .main_position {
     position: fixed;
     width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #900c3f;
 }
 
 .main_flex {
@@ -84,7 +88,9 @@ body {
 
 header {
     top: 0;
+    left: 0;
     z-index: 10;
+    background-color: #900c3f;
 }
 
 /*titres du CV*/
@@ -113,12 +119,17 @@ header {
 /*menu de navigation*/
 nav {
     z-index: 2;
+    margin: 0;
+    top: 0;
+
     /*border:1px solid rgb(145, 137, 137);*/
 }
 
 .nav_content {
     background-color: #cfcfcf;
     padding: 10px 10px;
+    height: 100%;
+    margin-top: 0;
 }
 
 .classicmenu {
